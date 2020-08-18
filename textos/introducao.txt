@@ -1,0 +1,1 @@
+"Site projetado como um projeto de aprendizagem em programação java script, html e css. E tem como objetivo divulgar os outros projetos do Professor Clístenes Grizafis Bento. Espero que gostem."
