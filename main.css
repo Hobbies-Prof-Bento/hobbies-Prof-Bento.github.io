@@ -3,6 +3,7 @@
 body{
     display:flex;
     flex-direction:column;
+    justify-content: center;
     background-color: rgb(78, 78, 100);
 
 }
@@ -34,12 +35,11 @@ body{
 .hpbTitle{
     display: flex;
     font-family: 'Roboto', sans-serif;    
-    text-align: left;
+    align-items: center;
 }
 .homeLink{
 
     display: flex;
-
     text-decoration: none;
     color: black;
     text-align: left;
@@ -67,6 +67,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+}
+
+.textoCarousel2{    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 #hpbIntroducao{
     width: 50%;
@@ -138,7 +146,6 @@ body{
     height: 40vh;
 
     display: flex;
-
     justify-content: center;
     align-items: center;
 
@@ -171,6 +178,7 @@ body{
 
 }
 .descricaoProjetos{
+    width: 100%;
     
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -181,4 +189,42 @@ body{
     align-items: center;
     box-sizing: border-box;
 
+}
+
+@media screen and (max-width: 700px) {
+    .homeLink {
+        font-size: 20px;
+    }
+
+    .hpbTitle img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icones img {
+        width: 30px;
+    }
+
+    #introducaoLabel {
+        font-size: 19px;
+    }
+
+    .textoCarousel2 {    
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .textoCarousel2 section img {
+        width: auto;
+    }
+
+    .descricaoProjetos {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .titleProjetos {
+        width: 50%;
+    }
 }
